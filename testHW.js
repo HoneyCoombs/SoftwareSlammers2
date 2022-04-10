@@ -76,5 +76,19 @@ describe('ComputeHW Test Suite', function () {
       assert.equal(computeHW.computeHW(90,90,82), 17.466666666666665);
     });
   });
+  
+  
+  describe('computeHW 13', function () {
+    it('Input of 0,54,83 should return 9.133', function () {
+      assert.equal(computeHW.computeHW(0,54,83), 9.133);
+    });
+  });
+
+
+  describe('computeHW 14', function () {
+    it('Input of 100,82,83 should return 17.667', function () {
+      assert.equal(computeHW.computeHW(100,82,83), 17.667);
+    });
+  });
 
 }); //End of ComputeHW Test Suite
